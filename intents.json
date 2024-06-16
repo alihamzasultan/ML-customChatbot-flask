@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hello there",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! How can I assist you today?",
+        "Hey! What can I do for you?",
+        "Hello! What brings you here today?",
+        "Hi! How can I assist you?",
+        "Hey there! How can I help you today?"
+      ]
+    },
+
+    {
+      
+      "tag": "company_info",
+      "patterns": [
+        "What is Mowers?",
+        "Can you tell me about Mowers?",
+        "What does Mowers do?",
+        "Who is Mowers?",
+        "What kind of company is Mowers?",
+        "Explain Mowers to me",
+        "What business is Mowers in?",
+        "Tell me about the company Mowers",
+        "What kind of services does Mowers offer?",
+        "Give me an overview of Mowers",
+        "What's the story of Mowers?",
+        "How would you describe Mowers?",
+        "What is Mowers known for?",
+        "What's the main business of Mowers?",
+        "Describe Mowers in a few words"
+      ],
+      "responses": [
+        "Mowers is a leading logistics company specializing in domestic and international shipping. We ensure your goods are delivered swiftly and safely.",
+        "At Mowers, we provide comprehensive logistics solutions, helping you ship items both locally and globally, except to some third-tier countries.",
+        "Mowers is dedicated to delivering excellence in logistics, offering a range of services to meet your shipping needs worldwide."
+      ]
+    },
+
+
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does Mowers offer?",
+        "What can I do with Mowers?",
+        "What logistics services does Mowers provide?",
+        "What do you offer?",
+        "What can Mowers help me with?",
+        "What kinds of services are available at Mowers?",
+        "Tell me about Mowers services",
+        "What does Mowers provide?",
+        "How can Mowers assist me?",
+        "What can I ship with Mowers?",
+        "Do you have any special services?",
+        "What types of logistics solutions does Mowers have?",
+        "Can you list the services of Mowers?",
+        "What options do I have with Mowers?",
+        "What is included in Mowers' services?"
+      ],
+      "responses": [
+        "Mowers offers a broad spectrum of logistics services including domestic and international shipping, freight forwarding, warehousing, and supply chain management.",
+        "Our services at Mowers include reliable domestic and international shipping, efficient freight forwarding, and comprehensive warehousing solutions.",
+        "With Mowers, you can access a variety of logistics services such as international shipping, freight forwarding, and supply chain management."
+      ]
+    },
+    {
+      "tag": "track_shipment",
+      "patterns": [
+        "How can I track my shipment with Mowers?",
+        "Can I track my Mowers shipment?",
+        "How do I check my shipment status?",
+        "Where is my package?",
+        "Can you help me track my order?",
+        "How do I find out where my shipment is?",
+        "Can you show me how to track my shipment?",
+        "How do I know where my package is?",
+        "How to track my parcel?",
+        "Where can I check my package's status?",
+        "Is there a way to see where my shipment is?",
+        "Can I follow my shipment's progress?",
+        "How can I monitor my shipment?",
+        "What's the status of my shipment?"
+      ],
+      "responses": [
+        "Tracking your shipment with Mowers is easy! Just use the tracking number provided on our website or mobile app.",
+        "To track your shipment, enter the tracking number on the Mowers website or app, and get real-time updates on your package's status.",
+        "You can find out where your shipment is by entering the tracking number on the Mowers tracking page or app."
+      ]
+    },
+    {
+      "tag": "same_day_delivery",
+      "patterns": [
+        "Does Mowers provide same-day delivery?",
+        "Can I get same-day delivery with Mowers?",
+        "Is same-day shipping available?",
+        "Can you deliver today?",
+        "Can I have my package delivered today?",
+        "Does Mowers offer delivery on the same day?",
+        "Do you have same-day delivery service?",
+        "Can Mowers deliver on the same day?",
+        "Is it possible to get delivery today?",
+        "Can I get my items today?",
+        "Is same-day delivery an option?",
+        "Can you do same-day shipping?",
+        "Can Mowers deliver a package the same day?",
+        "Is it possible to have a package shipped and delivered today?"
+      ],
+      "responses": [
+        "Absolutely! Mowers offers same-day delivery services in select regions to ensure your urgent shipments arrive on time.",
+        "Yes, you can take advantage of our same-day delivery service in certain areas. Check our website for availability.",
+        "Mowers provides efficient same-day delivery options in many regions. Make sure to check if your area is covered."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is Mowers available in my country?",
+        "Does Mowers operate in my country?",
+        "Can I use Mowers in my country?",
+        "Where does Mowers work?",
+        "Is Mowers service in my location?",
+        "Can I ship with Mowers from here?",
+        "Is Mowers available where I live?",
+        "Can Mowers ship from my country?",
+        "Does Mowers provide service in my area?",
+        "Can I access Mowers services here?",
+        "Is Mowers operational in my country?",
+        "Can I send packages with Mowers from my country?",
+        "Is Mowers present in my region?",
+        "Can I use Mowers from my location?"
+      ],
+      "responses": [
+        "Mowers operates in numerous countries worldwide, with the exception of some third-tier countries. Check our website for detailed coverage.",
+        "You can access Mowers services in many countries around the globe. Visit our website to see if we operate in your location.",
+        "Mowers is widely available, though we do not serve some third-tier countries. Visit our website for a complete list of locations."
+      ]
+    },
+    {
+      "tag": "restricted_items",
+      "patterns": [
+        "what is restricted?",
+        "what do u carry",
+        "what do you carry in shipments",
+        "What items cannot be shipped with Mowers?",
+        "Are there any restrictions on items Mowers can ship?",
+        "Can Mowers ship hazardous materials?",
+        "What can't I ship with Mowers?",
+        "Are there items Mowers won't ship?",
+        "Is there anything Mowers doesn't ship?",
+        "What items are not allowed for shipping?",
+        "Can you tell me what I can't ship with Mowers?",
+        "Does Mowers have any shipping restrictions?",
+        "Are there goods Mowers will not ship?",
+        "What items are restricted by Mowers?",
+        "Can Mowers ship everything?",
+        "Are there specific items Mowers doesn't handle?",
+        "Does Mowers refuse to ship certain things?"
+      ],
+      "responses": [
+        "Mowers does not ship hazardous materials, illegal items, or goods restricted by law in the destination country. Please check our website for a detailed list.",
+        "Certain items, like hazardous materials and illegal goods, cannot be shipped with Mowers. Visit our website for more information on restricted items.",
+        "We have restrictions on shipping hazardous and illegal items, as well as goods prohibited by destination country laws. Check our guidelines online."
+      ]
+    },
+    {
+      "tag": "schedule_pickup",
+      "patterns": [
+        "How do I schedule a pickup with Mowers?",
+        "Can I arrange a pickup with Mowers?",
+        "How to book a pickup with Mowers?",
+        "Can you pick up my package?",
+        "How can I get Mowers to pick up my shipment?",
+        "Can I schedule a pickup online?",
+        "How do I set up a pickup with Mowers?",
+        "Can Mowers come to collect my package?",
+        "How to arrange a pickup service?",
+        "What is the process to schedule a pickup?",
+        "Can I have Mowers collect my parcel?",
+        "How do I request a pickup from Mowers?",
+        "Is there a way to schedule a pickup with Mowers?",
+        "Can I book a pickup for my shipment?"
+      ],
+      "responses": [
+        "You can easily schedule a pickup through your Mowers account by selecting the pickup service option.",
+        "To arrange a pickup, log into your Mowers account and choose the pickup service. We'll handle the rest!",
+        "Scheduling a pickup with Mowers is simple. Just log into your account and select the pickup service to set it up."
+      ]
+    },
+    {
+      "tag": "international_shipping",
+      "patterns": [
+        "Does Mowers offer international shipping?",
+        "Can Mowers ship internationally?",
+        "Is international shipping available with Mowers?",
+        "Can you ship to other countries?",
+        "Does Mowers ship globally?",
+        "Can I send packages abroad with Mowers?",
+        "Is Mowers available for international delivery?",
+        "Does Mowers handle shipments to other countries?",
+        "Can I use Mowers to ship overseas?",
+        "Does Mowers support international shipping?",
+        "Can I ship internationally with Mowers?",
+        "Does Mowers ship to other nations?",
+        "Can I send parcels to different countries with Mowers?",
+        "Is global shipping offered by Mowers?"
+      ],
+      "responses": [
+        "Yes, Mowers offers international shipping to most countries, excluding some third-tier countries. Check our website for details.",
+        "We provide international shipping services to a wide range of countries. Visit our website to see the full list of available destinations.",
+        "Mowers facilitates international shipping to many countries. Please note, we do not ship to some third-tier countries."
+      ]
+    },
+
+
+    
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What are the payment methods accepted by Mowers?",
+        "How can I pay for Mowers services?",
+        "What payments does Mowers accept?",
+        "Can I pay with a credit card?",
+        "What payment options are there for Mowers?",
+        "How do I pay for my shipment?",
+        "Does Mowers accept PayPal?",
+        "What forms of payment can I use?",
+        "Can I use a debit card to pay for Mowers?",
+        "What ways can I pay Mowers?",
+        "Does Mowers take credit cards?",
+        "What payment methods can I use with Mowers?",
+        "Is PayPal accepted by Mowers?",
+        "Can I use my card to pay Mowers?"
+      ],
+      "responses": [
+        "Mowers accepts various payment methods including credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers for your convenience.",
+        "You can pay for Mowers services using major credit cards, PayPal, or bank transfers. We strive to offer flexible payment options.",
+        "At Mowers, you can choose from multiple payment options such as credit cards, PayPal, and bank transfers to settle your bills."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long does delivery take with Mowers?",
+        "What's the delivery time with Mowers?",
+        "How much time does shipping take?",
+        "When will my package arrive?",
+        "How long does it take for my shipment to arrive?",
+        "What is the estimated delivery time?",
+        "Can you tell me when my package will arrive?",
+        "When can I expect my shipment?",
+        "How many days does delivery usually take?",
+        "What is the typical delivery timeframe?",
+        "When should I expect my delivery?",
+        "How soon can I receive my package?",
+        "Can you give me an idea of the delivery time?",
+        "How fast is Mowers delivery?"
+      ],
+      "responses": [
+        "Delivery times with Mowers vary based on the destination and shipping method chosen. You can expect detailed delivery estimates during checkout.",
+        "Shipping times depend on the destination and service selected. Mowers provides estimated delivery times for your shipment.",
+        "The delivery time frame with Mowers is determined by your location and the shipping method you select. We provide estimated delivery dates at checkout."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "How can I contact Mowers?",
+        "Can I speak with someone at Mowers?",
+        "How do I get in touch with Mowers?",
+        "What is Mowers customer service phone number?",
+        "How do I reach Mowers customer support?",
+        "Is there a way to contact Mowers?",
+        "Can I email Mowers?",
+        "How to talk to Mowers support?",
+        "How do I connect with Mowers?",
+        "What are the contact options for Mowers?",
+        "Is there a helpline for Mowers?",
+        "Can I chat with Mowers?",
+        "How can I get help from Mowers?",
+        "How do I reach out to Mowers?"
+    
+      ],
+      "responses": [
+        "You can contact Mowers customer support via phone at +1-800-123-4567 or email us at support@mowers.com. We're here to assist you!",
+        "Reach out to Mowers customer service by phone at +1-800-123-4567 or email us at support@mowers.com for prompt assistance.",
+        "For assistance, please contact Mowers customer support at +1-800-123-4567 or send an email to support@mowers.com. We're ready to help!"
+      ]
+    },
+    {
+      "tag": "order_cancellation",
+      "patterns": [
+        "Can I cancel my order with Mowers?",
+        "How do I cancel my shipment?",
+        "Is it possible to cancel my booking?",
+        "Can I change my mind and cancel?",
+        "What's the process to cancel my order?",
+        "Do I have the option to cancel my shipment?",
+        "Can I cancel my Mowers shipment?",
+        "Is there a way to cancel my order?",
+        "What's the cancellation policy?",
+        "Can I back out of my order?",
+        "How to cancel an order with Mowers?",
+        "Can I revoke my shipping request?",
+        "Can I cancel my request with Mowers?",
+        "Is it too late to cancel my order?"
+    
+      ],
+      "responses": [
+        "You can cancel your order with Mowers by contacting customer support at +1-800-123-4567 or emailing us at support@mowers.com. Please review our cancellation policy for details.",
+        "To cancel your shipment, reach out to Mowers customer support at +1-800-123-4567 or email us at support@mowers.com. We'll guide you through the process.",
+        "For cancellations, contact Mowers customer service at +1-800-123-4567 or email us at support@mowers.com. We'll assist you according to our cancellation policy."
+      ]
+    },
+    {
+      "tag": "lost_package",
+      "patterns": [
+        "My package is lost. What do I do?",
+        "How can I find my lost package?",
+        "What if my shipment is missing?",
+        "My package didn't arrive. What now?",
+        "What should I do if my package is lost?",
+        "How to track down a lost package?",
+        "I can't find my package. Help!",
+        "What's the procedure for lost packages?",
+        "My shipment hasn't arrived. What next?",
+        "Can you help me locate my missing package?",
+        "What happens if my package is lost?",
+        "Help! My shipment is missing.",
+        "How do I recover a lost package?",
+        "My package hasn't shown up. What should I do?"
+    
+      ],
+      "responses": [
+        "If your package is lost, please contact Mowers customer support immediately at +1-800-123-4567 or email us at support@mowers.com. We'll initiate a trace and assist you.",
+        "To locate a lost package, contact Mowers customer service at +1-800-123-4567 or email us at support@mowers.com. We'll work to resolve the issue promptly.",
+        "For lost shipments, reach out to Mowers customer support at +1-800-123-4567 or email us at support@mowers.com. We're here to help track down your package."
+      ]
+    }
+  ]}
